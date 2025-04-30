@@ -46,7 +46,7 @@
     justify-content: center;
     align-items: center;
   }
-  
+  /*Grilla "main" anidada dentro de grilla "container"*/
   .main {
     grid-area: main;
     background: #def;
@@ -60,11 +60,11 @@
     height: 21rem;
     padding: 10px;
   }
+    /* Estas dos áreas corresponden a las áreas dentro de la grilla "main" */
   .main-left{
     grid-area: main-left;
     background: #def;
     display: flex;
-    justify-content: space-evenly;
     align-items: center;
   }
   .main-right{
